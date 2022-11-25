@@ -9,6 +9,9 @@ RUN apt update  \
     && apt install -y \
     certbot \
     curl \
+    ffmpeg \
+    imagemagick \
+    libimage-exiftool-perl \
     libmagic-dev \
     libncurses5 \
     locales \
